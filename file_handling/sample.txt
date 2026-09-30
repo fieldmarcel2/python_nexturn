@@ -1,0 +1,60 @@
+[2024-01-15 08:23:45] INFO - Application server started successfully
+[2024-01-15 08:24:12] INFO - Database connection established: postgresql://prod-db:5432
+[2024-01-15 08:24:35] INFO - Cache layer initialized with Redis cluster
+[2024-01-15 08:25:01] INFO - Loading configuration from environment variables
+[2024-01-15 08:25:18] INFO - API gateway listening on port 8080
+[2024-01-15 08:26:42] INFO - GET /api/v1/users/profile - Request from 192.168.1.101
+[2024-01-15 08:27:03] INFO - Database query executed in 145ms
+[2024-01-15 08:27:25] WARNING - Memory usage at 73% - Monitor closely
+[2024-01-15 08:28:11] INFO - POST /api/v1/auth/login - Authentication successful for user john.doe
+[2024-01-15 08:29:34] INFO - Session token generated: token_abc123def456
+[2024-01-15 08:30:05] ERROR - Database connection timeout after 30 seconds - postgresql://prod-db:5432
+[2024-01-15 08:30:22] WARNING - Retrying database connection (Attempt 1/3)
+[2024-01-15 08:30:45] INFO - Database connection re-established successfully
+[2024-01-15 08:31:17] INFO - GET /api/v1/products/list - Returned 250 results in 89ms
+[2024-01-15 08:32:04] WARNING - CPU usage spike detected: 85%
+[2024-01-15 08:32:41] INFO - Background job: email_scheduler started
+[2024-01-15 08:33:12] INFO - Processed 342 pending emails in 2.3 seconds
+[2024-01-15 08:34:00] INFO - POST /api/v1/orders/create - Order #ORD-2024-0001 created
+[2024-01-15 08:34:55] INFO - Payment processed: $299.99 - Status: SUCCESS
+[2024-01-15 08:35:30] ERROR - File upload failed: File size exceeds 50MB limit
+[2024-01-15 08:35:47] WARNING - Invalid file format detected: .exe file rejected
+[2024-01-15 08:36:15] INFO - GET /api/v1/documents/search - Query: "invoice 2024" returned 12 results
+[2024-01-15 08:37:02] INFO - User sarah.smith logged in from IP 10.0.0.55
+[2024-01-15 08:37:45] WARNING - Slow query detected - Query time: 2.1 seconds
+[2024-01-15 08:38:20] INFO - Query optimized with index on users_email column
+[2024-01-15 08:39:11] ERROR - SMTP connection failed: Connection refused on mail.example.com:587
+[2024-01-15 08:39:38] WARNING - Email queue backing up - 523 messages pending
+[2024-01-15 08:40:05] INFO - SMTP retry mechanism activated
+[2024-01-15 08:40:52] INFO - DELETE /api/v1/sessions/old_tokens - Cleared 1,247 expired tokens
+[2024-01-15 08:41:33] INFO - PATCH /api/v1/users/profile - Updated user preferences
+[2024-01-15 08:42:10] WARNING - Rate limit approaching: 950/1000 requests in current window
+[2024-01-15 08:42:55] INFO - GET /api/v1/reports/sales - Generated report for Q1 2024
+[2024-01-15 08:43:41] ERROR - Permission denied: User alex.johnson attempting to access admin panel
+[2024-01-15 08:44:03] INFO - Security alert logged: Unauthorized access attempt
+[2024-01-15 08:44:38] INFO - Background job: analytics_aggregator completed in 5.2 seconds
+[2024-01-15 08:45:15] WARNING - Disk space warning: 87% of storage capacity used
+[2024-01-15 08:45:52] INFO - Backup job initiated - Backing up database to S3
+[2024-01-15 08:46:37] INFO - Backup completed: 2.3GB transferred in 45 seconds
+[2024-01-15 08:47:10] ERROR - Third-party API timeout: Payment gateway did not respond within 15 seconds
+[2024-01-15 08:47:41] INFO - Transaction marked as PENDING - Retry scheduled for 09:00 UTC
+[2024-01-15 08:48:25] INFO - GET /health/status - Server health check: OK
+[2024-01-15 08:49:02] WARNING - WebSocket connection drops detected: 3 disconnections in last minute
+[2024-01-15 08:49:45] INFO - Reconnection handler activated - Attempting to restore connections
+[2024-01-15 08:50:18] INFO - 2 of 3 WebSocket connections restored
+[2024-01-15 08:50:55] ERROR - Message queue connection lost - RabbitMQ unavailable
+[2024-01-15 08:51:22] WARNING - Switching to fallback queue mechanism
+[2024-01-15 08:51:58] INFO - Fallback queue initialized - Messages queued locally
+[2024-01-15 08:52:35] INFO - POST /api/v1/notifications/send - Sent 1,523 push notifications
+[2024-01-15 08:53:12] INFO - GET /api/v1/analytics/dashboard - Dashboard data served in 156ms
+[2024-01-15 08:53:47] WARNING - Code deployment in progress - Minimal downtime expected
+[2024-01-15 08:54:30] INFO - Version 2.5.1 deployment: 45% complete
+[2024-01-15 08:55:15] INFO - Version 2.5.1 deployment: 90% complete
+[2024-01-15 08:56:02] INFO - Version 2.5.1 successfully deployed - All tests passed
+[2024-01-15 08:56:45] INFO - Service restart completed - Server ready to accept traffic
+[2024-01-15 08:57:20] INFO - POST /api/v1/audit/log - Security audit entry recorded
+[2024-01-15 08:58:05] WARNING - Unusually high error rate detected in authentication service: 8.5%
+[2024-01-15 08:58:42] INFO - Diagnostics initiated on authentication module
+[2024-01-15 08:59:18] INFO - Root cause identified: SSL certificate expiring in 7 days
+[2024-01-15 09:00:03] INFO - Certificate renewal process scheduled for 2024-01-22
+[2024-01-15 09:00:45] INFO - GET /api/v1/system/logs - Returning last 100 log entries to admin user
